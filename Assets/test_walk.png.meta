@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: ada282ac764e2ee4fa5a7267a827f6d5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: test_walk
+    21300002: test_walk_0
+    21300004: test_walk_1
+    21300006: test_walk_2
+    21300008: test_walk_3
+    21300010: test_walk_4
+    21300012: test_walk_5
+    21300014: test_walk_6
+    21300016: test_walk_7
+    21300018: test_walk_8
+    21300020: test_walk_9
+    21300022: test_walk_10
+    21300024: test_walk_11
+    21300026: test_walk_12
+    21300028: test_walk_13
+    21300030: test_walk_14
+    21300032: test_walk_15
+    21300034: test_walk_16
+    21300036: test_walk_17
+    21300038: test_walk_18
+    21300040: test_walk_19
+    21300042: test_walk_20
+    21300044: test_walk_21
+    21300046: test_walk_22
+    21300048: test_walk_23
+    21300050: test_walk_24
+    21300052: test_walk_25
+    21300054: test_walk_26
+    21300056: test_walk_27
+    21300058: test_walk_28
+    21300060: test_walk_29
+    21300062: test_walk_30
+    21300064: test_walk_31
+    21300066: test_walk_32
+    21300068: test_walk_33
+    21300070: test_walk_34
+    21300072: test_walk_35
+    21300074: test_walk_36
+    21300076: test_walk_37
+    21300078: test_walk_38
+    21300080: test_walk_39
+    21300082: test_walk_40
+    21300084: test_walk_41
+    21300086: test_walk_42
+    21300088: test_walk_43
+    21300090: test_walk_44
+    21300092: test_walk_45
+    21300094: test_walk_46
+    21300096: test_walk_47
+    21300098: test_walk_48
+    21300100: test_walk_49
+    21300102: test_walk_50
+    21300104: test_walk_51
+    21300106: test_walk_52
+    21300108: test_walk_53
+    21300110: test_walk_54
+    21300112: test_walk_55
+    21300114: test_walk_56
+    21300116: test_walk_57
+    21300118: test_walk_58
+    21300120: test_walk_59
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: test_walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1102
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1102
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1102
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1102
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1102
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_5
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1102
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_6
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1102
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_7
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1102
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_8
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1102
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_9
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1102
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 884
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 884
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_12
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 884
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 884
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_14
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 884
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_15
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 884
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_16
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 884
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_17
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 884
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_18
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 884
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_19
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 884
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 666
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 666
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_22
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 666
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_23
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 666
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_24
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 666
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_25
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 666
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_26
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 666
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_27
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 666
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_28
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 666
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_29
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 666
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_31
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 448
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_32
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 448
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_33
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 448
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_34
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 448
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_35
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 448
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_36
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 448
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_37
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 448
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_38
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 448
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_39
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 448
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_41
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 230
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_42
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 230
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_43
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 230
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_44
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 230
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_45
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 230
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_46
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 230
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_47
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 230
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_48
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 230
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_49
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 230
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_51
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 12
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_52
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 12
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_53
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 12
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_54
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 12
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_55
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 12
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_56
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 12
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_57
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 12
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_58
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 12
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_walk_59
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 12
+        width: 101
+        height: 218
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
