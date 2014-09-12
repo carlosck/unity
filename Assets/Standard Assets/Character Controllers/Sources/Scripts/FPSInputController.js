@@ -8,39 +8,43 @@ function Awake () {
 	motor = GetComponent(CharacterMotor);
 	anim = GameObject.FindGameObjectWithTag("animacion").GetComponent.<Animator>();
 }
-
+function GetDirection()
+{
+	var directionVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+	return directionVector;
+}
 // Update is called once per frame
 function Update () {
 	// Get the input vector from keyboard or analog stick
 	var directionVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 	var vertical = Input.GetAxis("Vertical");
 	var horizontal = Input.GetAxis("Horizontal");
-	if (vertical > 0)
-	{
-	    anim.SetInteger("Direction", 8);
-	}
-	else if (vertical < 0)
-	{
-	    anim.SetInteger("Direction", 2);
-	}
-	else if (horizontal > 0)
-	{
-	    anim.SetInteger("Direction", 6);
-	    facing_left = false;
-	}
-	else if (horizontal < 0)
-	{
-	    anim.SetInteger("Direction", 4);
-	    facing_left = true;
-	}
-	if(vertical==0 && horizontal==0)
-	{
-		if(facing_left)
-			anim.SetInteger("Direction", 5);
-		else
-			anim.SetInteger("Direction", 1);
+	// if (vertical > 0)
+	// {
+	//     anim.SetInteger("Direction", 8);
+	// }
+	// else if (vertical < 0)
+	// {
+	//     anim.SetInteger("Direction", 2);
+	// }
+	// else if (horizontal > 0)
+	// {
+	//     anim.SetInteger("Direction", 6);
+	//     facing_left = false;
+	// }
+	// else if (horizontal < 0)
+	// {
+	//     anim.SetInteger("Direction", 4);
+	//     facing_left = true;
+	// }
+	// if(vertical==0 && horizontal==0)
+	// {
+	// 	if(facing_left)
+	// 		anim.SetInteger("Direction", 5);
+	// 	else
+	// 		anim.SetInteger("Direction", 1);
 
-	}
+	// }
 
 	if (directionVector != Vector3.zero) {
 		// Get the length of the directon vector and then normalize it

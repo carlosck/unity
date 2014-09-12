@@ -12,7 +12,9 @@ Then we apply the smoothed values to the transform's position.
 // The target we are following
 var target : Transform;
 // The distance in the x-z plane to the target
-var distance = 79;
+var distance_z = 79;
+var distance_x = 79;
+
 var height = 36;
 
 var max_x_left = 0;
@@ -37,8 +39,8 @@ function LateUpdate () {
   
   // Calculate the current rotation angles
   
-  transform.position.x = target.position.x;
+  transform.position.x = target.position.x-distance_x;
   transform.position.y = height;
-  transform.position.z = target.position.z-distance;
+  transform.position.z = target.position.z-distance_z;
   
 }

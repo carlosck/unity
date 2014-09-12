@@ -8,6 +8,7 @@ var canControl : boolean = true;
 var useFixedUpdate : boolean = true;
 var anim : Animator;
 var facing_left : boolean = false ;
+var direction_facing : int = 1;
 // For the next variables, @System.NonSerialized tells Unity to not serialize the variable or show it in the inspector view.
 // Very handy for organization!
 
@@ -178,41 +179,53 @@ private var controller : CharacterController;
 
 function Awake () {
 	controller = GetComponent (CharacterController);
-	anim = GameObject.FindGameObjectWithTag("animacion").GetComponent.<Animator>();
+	// anim = GameObject.FindGameObjectWithTag("animacion").GetComponent.<Animator>();
 	tr = transform;
 }
 
 private function UpdateFunction () {
 	// We copy the actual velocity into a temporary variable that we can manipulate.
 	var velocity : Vector3 = movement.velocity;
-	// if(velocity.x > 0 )
-	// {
-	// 	anim.SetInteger("Direction", 6);
-	//     facing_left = false;
-	// }
-	// if(velocity.x < 0 )
-	// {
-	// 	anim.SetInteger("Direction", 4);
-	//     facing_left = true;
-	// }
-	// if(velocity.z > 0 )
-	// {
-	// 	anim.SetInteger("Direction", 8);
-	//     facing_left = true;
-	// }
-	// if(velocity.z < 0 )
-	// {
-	// 	anim.SetInteger("Direction", 2);
-	//     facing_left = true;
-	// }
-	// if(velocity.z==0 && velocity.x==0)
-	// {
-	// 	if(facing_left)
-	// 		anim.SetInteger("Direction", 5);
-	// 	else
-	// 		anim.SetInteger("Direction", 1);
+	if(Mathf.Abs(velocity.x) > Mathf.Abs(velocity.z))
+   {
+    if(velocity.x > 0 )
+    {
+     anim.SetInteger("Direction", 6);
+        facing_left = false;
+        direction_facing=6;
+    }
+    if(velocity.x < 0 )
+    {
+     anim.SetInteger("Direction", 4);
+        facing_left = true;
+        direction_facing=4;
+    }
+   }
+   else
+   {
+    if(velocity.z > 0 )
+    {
+     anim.SetInteger("Direction", 8);
+        facing_left = true;
+        direction_facing=8;
+    }
+    if(velocity.z < 0 )
+    {
+     anim.SetInteger("Direction", 2);
+        facing_left = true;
+        direction_facing=2;
+    } 
+   }
+   
+   
+   if(velocity.z==0 && velocity.x==0)
+   {
+    if(facing_left)
+      anim.SetInteger("Direction", 5);
+    else
+      anim.SetInteger("Direction", 1);
 
-	// }
+   }
 
 	// Update velocity based on input
 	velocity = ApplyInputVelocityChange(velocity);
@@ -609,7 +622,7 @@ function SetVelocity (velocity : Vector3) {
 	grounded = false;
 	movement.velocity = velocity;
 	movement.frameVelocity = Vector3.zero;
-	SendMessage("OnExternalVelocity");
+	// SendMessage("OnExternalVelocity");
 }
 
 // Require a character controller to be attached to the same game object
