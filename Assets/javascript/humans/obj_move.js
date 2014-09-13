@@ -1,9 +1,8 @@
-﻿#pragma strict
+#pragma strict
 public var walk_speed : float = 2f; 
 public var patrolWayPoints : Transform[];
 public var patrolWaitTime : float = 5f;
-var anim : Animator;
-var facing_left : boolean=false;
+
 
 private var agent : NavMeshAgent;
 private var patrolTimer : float;
@@ -11,51 +10,15 @@ private var wayPointIndex : int;
 
 function Awake () {
  agent = GetComponent(typeof(NavMeshAgent)) as NavMeshAgent;
- anim = transform.Find("animator_container").GetComponent(typeof(Animator)) as Animator;
+ 
 
  agent.SetDestination(patrolWayPoints[wayPointIndex].position);
- // agent.destination = patrolWayPoints[wayPointIndex].position;
+ 
 }
 
 function Update () {
  Patrolling();
- var velocity : Vector3 = agent.velocity;
- if(Mathf.Abs(velocity.x) > Mathf.Abs(velocity.z))
- {
-  if(velocity.x > 0 )
-  {
-   anim.SetInteger("Direction", 6);
-      facing_left = false;
-  }
-  if(velocity.x < 0 )
-  {
-   anim.SetInteger("Direction", 4);
-      facing_left = true;
-  }
- }
- else
- {
-  if(velocity.z > 0 )
-  {
-   anim.SetInteger("Direction", 8);
-      facing_left = true;
-  }
-  if(velocity.z < 0 )
-  {
-   anim.SetInteger("Direction", 2);
-      facing_left = true;
-  } 
- }
  
- 
- if(velocity.z==0 && velocity.x==0)
- {
-  if(facing_left)
-    anim.SetInteger("Direction", 5);
-  else
-    anim.SetInteger("Direction", 1);
-
- }
 }
 
 function Patrolling ()
